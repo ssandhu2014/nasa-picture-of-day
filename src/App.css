@@ -36,3 +36,25 @@
     transform: rotate(360deg);
   }
 }
+
+.container {
+  position: relative;
+  margin-top: 50px;  
+}
+
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  color: white;
+}
+
+.text-block {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+

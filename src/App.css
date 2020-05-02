@@ -1,4 +1,4 @@
-html {  
+body {  
   background-color: black;
 }
 .App {
@@ -43,7 +43,7 @@ html {
 
 .container {
   position: relative;
-  margin-top: 50px;
+  margin-top: 20px;
   color: white;
 }
 
@@ -65,4 +65,18 @@ html {
 .read-more-button {
   color: orange;
   cursor: pointer;
+}
+
+.nasa-header {
+  float: left;
+}
+
+.nav-potd {
+  color: white;
+  float: right;
+}
+
+.nav-potd:hover {
+    text-decoration: underline;
+    color: white;
 }

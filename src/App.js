@@ -1,14 +1,18 @@
 import React from 'react';
-import './App.css';
+import { Route, Switch } from 'react-router-dom';
 import PhotoOfDay from './components/pod';
-import Header from './components/header';
+import './App.css';
+import Home from './components/home';
 
 function App() {
   return (
-    <div className="App">
-      <Header/>
-      <PhotoOfDay />
-    </div>
+      <div>
+        <Switch>
+          <Route path="/" component={Home} />
+          <Route path="/potd" component={PhotoOfDay} />
+        </Switch>
+      </div>
+    
   );
 }
 

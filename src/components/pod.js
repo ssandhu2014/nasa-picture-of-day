@@ -16,7 +16,7 @@ class PhotoOfDay extends React.Component {
     render() {
         return <div className="container">
             <div className="row">
-                <div className=" col-lg-offset-4 col-lg-8">
+                <div className="col-lg-offset-4 col-lg-8">
                     <h3 className="top-left">PIC OF THE DAY</h3>
                     <img src={this.state.photo.url} alt={this.state.photo.title} />
                     <div className="text-block">

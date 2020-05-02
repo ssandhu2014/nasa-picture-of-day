@@ -1,12 +1,13 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import PhotoOfDay from './components/pod';
+import Header from './components/header';
 
 function App() {
   return (
     <div className="App">
-      <PhotoOfDay/>
+      <Header/>
+      <PhotoOfDay />
     </div>
   );
 }
